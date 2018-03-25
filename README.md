@@ -13,3 +13,6 @@ Criptografia_texto.py:
  SearchDirectoryWebsite.py:
   Procura diretorios de um site a partir de uma lista criada (linha 24).
   Importante: Não colocar o site com "http://" pois o mesmo já é colocado automaticamente (linha 26)
+
+MacarEmailComoLido.py :
+  Marca os email como lidos, especificamente gmail
