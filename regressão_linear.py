@@ -29,4 +29,5 @@ for i in x:
     y1.append((a[0]*i)+b[0])
 print('Raiz quadrada do erro-médio',np.sqrt(metrics.mean_squared_error(y_test, y_pred)*100), "%") #porcentagem do erro testado em relção ao previsto
 plt.plot(x,y1, color = 'green')
+print(regressor.score(X_test,y_test))
 plt.show()
