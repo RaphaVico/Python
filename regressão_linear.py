@@ -20,7 +20,7 @@ b = regressor.intercept_
 print("y = ",a,"*x", "+",b) #equação da reta otima
 y1 = []
 for i in x:
-    y1.append((a[0]*i)+b[0])
+    y1.append((a*i)+b)
 print('Raiz quadrada do erro-médio',np.sqrt(metrics.mean_squared_error(y_test, y_pred)*100), "%") #porcentagem do erro testado em relção ao previsto
 plt.plot(x,y1, color = 'green')
 plt.show()
